@@ -1,0 +1,38 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=iGMq8k6VZS1vtsDhoi1h3b8E6aIWukbY4THxl3bTjI0kfQWsi90abrX0mFTsOsn4
+DJANGO_ADMIN_URL=49DhCzytXjHzIOYckh3FZdTqxhiC10PI/
+DJANGO_ALLOWED_HOSTS=.qacademy.com
+
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=False
+
+# Email
+# ------------------------------------------------------------------------------
+DJANGO_SERVER_EMAIL=
+
+
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=dGKsdTcygMkvWYWLosHLzgtcKAPWlEtU
+CELERY_FLOWER_PASSWORD=sgK2qDLWrrHv3vkgurUTlpLYeXvFBEbIduj9klGEclCiN17XPJqcKHYNzKRHaqPU
+
